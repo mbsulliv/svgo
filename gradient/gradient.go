@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 )
 
 func main() {

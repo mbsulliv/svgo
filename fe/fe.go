@@ -4,7 +4,7 @@ package main
 // +build !appengine
 
 import (
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 	"os"
 )
 

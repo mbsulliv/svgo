@@ -548,12 +548,12 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
   style="fill:white;stroke:black;stroke-width:2" />
   <g style="font-family:Calibri; text-anchor:middle; font-size:24px">
 
-    <a xlink:href="http://github.com/ajstarks/svgo"
+    <a xlink:href="http://github.com/mbsulliv/svgo"
     xlink:title="SVGo Library">
       <text x="1825" y="150" style="font-size:125px">SVG Go
       Library</text>
       <text x="1825" y="200" style="font-size:50px;fill:gray">
-      github.com/ajstarks/svgo</text>
+      github.com/mbsulliv/svgo</text>
     </a>
     <desc>Object Usage</desc>
     <g transform="translate(200,400)">

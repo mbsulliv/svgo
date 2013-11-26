@@ -39,13 +39,13 @@ See svgdef.[svg|png|pdf] for a graphical view of the function calls
 
 Usage: (assuming GOPATH is set)
 
-	go get github.com/ajstarks/svgo
-	go install github.com/ajstarks/svgo/...
+	go get github.com/mbsulliv/svgo
+	go install github.com/mbsulliv/svgo/...
 	
 	
 You can use godoc to browse the documentation from the command line:
 
-	$ godoc github.com/ajstarks/svgo
+	$ godoc github.com/mbsulliv/svgo
 	
 
 a minimal program, to generate SVG to standard output.
@@ -53,7 +53,7 @@ a minimal program, to generate SVG to standard output.
 	package main
 	
 	import (
-		"github.com/ajstarks/svgo"
+		"github.com/mbsulliv/svgo"
 		"os"
 	)
 	
@@ -73,7 +73,7 @@ Drawing in a web server: (http://localhost:2003/circle)
 	
 	import (
 		"log"
-		"github.com/ajstarks/svgo"
+		"github.com/mbsulliv/svgo"
 		"net/http"
 	)
 	

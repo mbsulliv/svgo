@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 )
 
 var (

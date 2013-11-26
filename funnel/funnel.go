@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 )
 
 var canvas = svg.New(os.Stdout)

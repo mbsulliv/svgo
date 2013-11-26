@@ -5,7 +5,7 @@ package main
 import (
 	"os"
 
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 )
 
 var (

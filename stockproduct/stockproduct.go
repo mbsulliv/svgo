@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ajstarks/svgo"
+	"github.com/mbsulliv/svgo"
 )
 
 type Parameters struct {
