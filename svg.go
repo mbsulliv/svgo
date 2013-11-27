@@ -369,7 +369,7 @@ func (svg *SVG) Textlines(x, y int, s []string, size, spacing int, fill, align s
 // but (if your browser supports it), it seems to work well enough.
 func (svg *SVG) Textwrap(x, y, w, h int, msg, style string) {
     svg.printf(`<foreignObject %s width="%d" height="%d" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">` + "\n", loc(x, y), w, h)
-    svg.printf(`<span style="%s" xmlns="http://www.w3.org/1999/xhtml">`, style)
+    svg.printf(`<span style="word-wrap:break-word;%s" xmlns="http://www.w3.org/1999/xhtml">`, style)
     xml.Escape(svg.Writer, []byte(msg))
     svg.printf(`</span>` + "\n")
     svg.printf(`</foreignObject>` + "\n")
